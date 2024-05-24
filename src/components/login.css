@@ -1,0 +1,30 @@
+.contenedor-izq{
+    padding-right: 15%;
+    background: linear-gradient(to top, #0f3052, #216195,#5d92d3);
+    padding-left: 150px;
+    position: relative; /* Añade posición relativa al contenedor */
+    overflow: hidden; /* Oculta el desbordamiento */
+}
+.linea-inferior{
+    width: 48%;
+    height: 420px;
+    position: absolute;
+    border: 3px solid #235d97a2;
+    border-radius: 100%;
+    bottom: -180px;
+    left: -140px;
+}
+.l-i-padd{
+    margin-left: 80px;
+    margin-bottom: -15px;
+}
+.izq-btn{
+    width: 130px;
+    background-color: rgb(72, 115, 255);
+    color: aliceblue;
+    border-radius: 20px;
+    font-size: 14px;
+}
+.izq-btn:hover{
+    background-color: rgb(90, 90, 247);
+}
