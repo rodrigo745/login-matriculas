@@ -1,10 +1,11 @@
 import React from "react"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "./login.css";
-import LogoJoseDeLaVega from "./logo_jose_de_la_vega.png";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import { Link } from 'react-router-dom';
 
+// agregar esto
+import "./login.css";
+import LogoJoseDeLaVega from "./logo_jose_de_la_vega.png";
 
 
 export default function Login(){
@@ -41,7 +42,7 @@ export default function Login(){
                     </div>
                     <div className="mt-3 ms-2">
                         <input type="checkbox" className="me-2 btn" />
-                        <label >Recordarme</label>
+                        <label>Recordarme</label>
                     </div>
                     <button className="btn btn-primary rounded-5 col-12  mt-3 p-3 shadow-sm">Ingresar</button>
                     <Link to="/" className="btn text-center col-12">Recuperar contraseña</Link>
